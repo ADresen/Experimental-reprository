@@ -13,4 +13,4 @@ g = 400-((pi.*(D.^2).*H)/4);
 hold on;
 %plot
 contour(D,H,g,[0 0],'k','linewidth',3);
-contour(D,H,g,[0:.05:3],'c');
+contour(D,H,g,[0:.05:3],'r');
